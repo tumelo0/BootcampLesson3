@@ -1,0 +1,163 @@
+/*!
+ Author: Tumelo Madume
+Design by Tumelo Madume
+ */
+ 
+ /*--================ Start screens Mobile Meta tage =================--*/
+ /* Base styles for all devices */
+body {
+    font-size: 16px;
+}
+
+/* Styles for screens narrower than 600px */
+ @media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Additional mobile-specific styles */
+}
+/*--================ End screens Mobile Meta tage =================--*/
+
+
+/*--================ Start CSS style Area =================--*/
+  body { font-family: Arial, sans-serif;margin: 1; padding: 1; }
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 1em; }
+  nav ul { list-style: none; display: flex; }
+  nav ul li { padding: 0 1em; }
+  nav ul li a { text-decoration: none; color: #000066; }
+/*--================ End CSS style Area =================--*/
+
+
+
+/*--================ Start map style Area =================--*/
+.map { height: 490px; background: 0; text-align: center; padding-top: 14S0px; }
+
+/*--================ End map style Area =================--*/
+
+
+/*--================ Start Contact Information style Area =================--*/
+  /* display form Area */
+    .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-form > form > label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contact-form > form > label > span {
+    margin-top: 5px;
+    color: #e9031d
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .contact-form,
+  .contact-info {
+    flex-basis: 48%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* button Area */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .contact input, .contact textarea, .contact-form button { display: block; width: 100%; margin: 10px 0; }
+  .contact-form button { background: #333; color: white; padding: 10px; }
+  
+/*--================ End Contact Information Area =================--*/
+
+/*--================ Start footer style Area =================--*/
+
+  /* footer Area */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-section {
+    margin: 10 60px;
+    
+  }
+ 
+
+  /* social media icons Area */
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-whatsapp {
+  background: #00b489;
+  color: white;
+}
+
+
+  /* Navbar links */
+  .navbar { background-color: 0; color: white; padding: 0em; text-align: center; }
+  .navbar  ul li a { display: flex; color: white; text-decoration: none; padding: 0 0em; }
+
+  
+  footer { background: #333; color: white; text-align: center; padding: 1em 0; }
+
+  /* Copyright Area */
+  .Copyright a {
+    text-decoration: none;
+    color: white;
+  }
+
+/*--================ End footer style Area =================--*/
+
+

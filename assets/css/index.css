@@ -1,0 +1,192 @@
+/*!
+ Author: Tumelo Madume
+Design by Tumelo Madume
+ */
+ 
+ /*--================ Start screens Mobile Meta tage =================--*/
+ /* Base styles for all devices */
+body {
+    font-size: 16px;
+}
+
+/* Styles for screens narrower than 600px */
+ @media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Additional mobile-specific styles */
+}
+/*--================ End screens Mobile Meta tage =================--*/
+
+
+/*--================ Start CSS style Area =================--*/
+
+  body { font-family: Arial, sans-serif;margin: 1; padding: 1; }
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 1em; }
+  nav ul { list-style: none; display: flex; }
+  nav ul li { padding: 0 1em; }
+  nav ul li a { text-decoration: none; color:  #000066;}
+/*--================ End CSS style Area =================--*/
+
+
+/*--================ Start Video style Area =================--*/
+
+  /* Style the video element */
+  video {
+      width: 90%; /* This will make the video responsive */
+      height: 10%; /* Maintain the aspect ratio */
+	  max-width: 95%; /* max-width design */
+      margin: auto;
+	  display: flex; margin: 2em 10;
+      overflow: hidden; /* the video is larger than the container */
+  }
+  
+/*--================ End Video style Area =================--*/
+
+
+/* button Area */
+  button {
+    padding: 10px 20px;
+	  font-size: 100%;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #000066;
+  }
+  .contact-form input, .contact-form textarea, .contact-form button { display: block; width: 100%; margin: 10px 0; }
+  .contact-form button { background: #333; color: white; padding: 10px; }
+
+/*--================ Start Image style Area =================--*/
+   
+  .content { display: flex; margin: 2em 0; }
+  .content {
+      overflow: 0; 
+	  text-align: center;
+      text-decoration: none;
+      margin: 10px 100px;
+	  justify-content: space-around; 
+	  
+
+  }
+  
+  .image {
+      width: 100%;
+      height: 100%;
+      float: right; 
+      margin-left: 20%;
+	  border-radius: 50%;
+	  display: flex;
+  }
+  
+
+ /* Container for the profile */
+  .profile {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+	justify-content: space-around;
+	
+  }
+
+  /* Style for the name */
+  h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+	
+  }
+
+  /* Style for the bio */
+  p {
+    line-height: 1.6;
+  }
+
+  /* Bold style for strong elements */
+  strong {
+    font-weight: 0;
+  }
+  
+/*--================ End Image style Area =================--*/
+
+/*--================ Start footer style Area =================--*/
+
+  /* footer Area */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-section {
+    margin: 10 60px;
+    
+  }
+ 
+
+  /* social media icons Area */
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+
+  .fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+.fa-whatsapp {
+  background: #00b489;
+  color: white;
+}
+
+
+  /* Navbar links */
+  .navbar { background-color: 0; color: white; padding: 0em; text-align: center; }
+  .navbar  ul li a { display: flex; color: white; text-decoration: none; padding: 0 0em; }
+
+
+  /* map Area */
+  .map {
+    height: 150px; /* Adjust as needed */
+    background-color: #ddd; /* Placeholder color */
+  }
+  footer { background: #333; color: white; text-align: center; padding: 1em 0; }
+
+  /* Copyright Area */
+  .Copyright a {
+    text-decoration: none;
+    color: white;
+  }
+
+/*--================ End footer style Area =================--*/
+
